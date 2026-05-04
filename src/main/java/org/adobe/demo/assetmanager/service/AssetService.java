@@ -15,7 +15,7 @@ public class AssetService {
         this.repository = repository;
     }
 
-    // MÉTHODE "LEGACY" (Parfaite pour la démo Cmd+K)
+    
     public long calculateTotalStorageForUser(String ownerId) {
         long totalSize = 0;
         List<Asset> allAssets = repository.findAll();
